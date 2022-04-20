@@ -1,0 +1,32 @@
+body {
+  color: #434343;
+  background-color: #d3d3d3;
+}
+
+.container {
+  background-color: aqua;
+  padding: 16px;
+}
+
+.container .card {
+  background-color: aquamarine;
+  padding: 16px;
+  width: 50%;
+}
+
+.container .card img {
+  width: 100%;
+}
+
+.container .card .time {
+  text-align: right;
+  font-size: 13px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
